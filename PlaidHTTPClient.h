@@ -15,8 +15,9 @@
 @interface PlaidHTTPClient : AFHTTPSessionManager
 
 #define kPlaidBaseURL @"https://tartan.plaid.com"
-#define kClientID     @"your client id here"
-#define kSecret       @"your secret here"
+
+#define kClientID     @"537263a2aabb5764473d9b0d"
+#define kSecret       @"E_meTIsez7jdUF6WmhiEcj"
 
 
 + (PlaidHTTPClient *)sharedPlaidHTTPClient;
