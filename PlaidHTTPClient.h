@@ -16,8 +16,8 @@
 
 #define kPlaidBaseURL @"https://tartan.plaid.com"
 
-#define kClientID     @"537263a2aabb5764473d9b0d"
-#define kSecret       @"E_meTIsez7jdUF6WmhiEcj"
+#define kClientID     @"Your Client ID Here"
+#define kSecret       @"Your Secret Here"
 
 
 + (PlaidHTTPClient *)sharedPlaidHTTPClient;
