@@ -239,7 +239,7 @@
                     success: (void(^)(NSURLSessionDataTask *task, id plaidEntity))success
                     failure: (void(^)(NSURLSessionDataTask *task, NSError *error))failure
 {
-    [self GET: [NSString stringWithFormat: @"/entitities/%@", entityID]
+    [self GET: [NSString stringWithFormat: @"/entities/%@", entityID]
    parameters: nil
       success: ^(NSURLSessionDataTask *task, id responseObject)
                {
