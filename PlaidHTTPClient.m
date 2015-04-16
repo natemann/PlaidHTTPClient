@@ -8,10 +8,6 @@
 
 #import "PlaidHTTPClient.h"
 
-#import "Account.h"
-#import "Transaction.h"
-#import "Merchant.h"
-
 @interface PlaidHTTPClient ()
 
 @property (nonatomic, strong) NSDateFormatter *dateFormatter;
